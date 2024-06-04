@@ -13,21 +13,21 @@ export default function ListUser() {
   const [listUser, setListUser] = useState<User[]>([
     {
       id: 1,
-      userName: "Phạm Trung Hiếu",
+      userName: "Nguyễn Thế Cường",
       email: "abc@gmail.com",
-      address: "Hà Nội",
+      address: "Hp",
     },
     {
       id: 2,
-      userName: "Nguyễn Thanh Sang",
+      userName: "Nguyễn Trọng Kim",
       email: "xyz@gmail.com",
-      address: "HCM",
+      address: "Hp",
     },
     {
       id: 3,
-      userName: "Cao Mỹ Tâm",
+      userName: "Bùi Thị Hường",
       email: "cvb@gmail.com",
-      address: "HCM",
+      address: "Hp",
     },
   ]);
 
